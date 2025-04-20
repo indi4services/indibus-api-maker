@@ -43,7 +43,7 @@ const makeApp = `mkdir ${repoName}`
 const changeToApp = `cd ${repoName}`
 
 const createPublicFolder = `cd ${repoName} && mkdir public`
-const createTemp = `cd ${repoName} && mkdir public && mkdir temp`
+const createTemp = `cd ${repoName} && cd public && mkdir temp`
 const creategitignore = `cd ${repoName} && touch .gitignore`
 const createPrettierIgnore = `cd ${repoName} && touch .prettierignore` 
 const createPrettierrc = `cd ${repoName} && touch .prettierrc`
