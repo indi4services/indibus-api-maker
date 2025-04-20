@@ -1,6 +1,6 @@
 {
   "name": "create-indibus-api",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Indibus Framework for api building ",
   "main": "src/index.js",
   "type": "module",

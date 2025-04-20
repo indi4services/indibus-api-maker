@@ -18,7 +18,7 @@ export default async function writeInMulterMiddleware( repoName ) {
      
     export const upload = multer({ storage: storage }) 
 `
-    await fs.writeFile(`${repoName}/src/middleware/multer.middleware.js`, content);
+    await fs.writeFile(`${repoName}/src/middlewares/multer.middleware.js`, content);
   } catch (err) {
     console.log(err);
   }
