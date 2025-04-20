@@ -1,28 +1,28 @@
 #!/usr/bin/env node
 
 import {execSync} from "child_process"
-import writeInGitIgnore from "./writeInGitIgnore";
-import writeInPrettierIgnore from "./writeInPrettierIgnore";
-import writeInPrettierRC from "./writeInPrettierRC";
-import writeInPackageLock from "./writeInPackageLock";
-import writeInPackage from "./writeInPackege";
-import writeInENV from "./writeInENV";
-import writeInIndex from "./writeInIndex";
-import writeInAPPFile from "./writeInAppFile";
-import writeInServer from "./writeInServer";
-import writeInSocket from "./writeInSocket";
-import writeInConstants from "./writeInConstants";
-import writeInUserController from "./writeInUserController";
-import writeInUserRoutes from "./writeInUserRoutes";
-import writeInUserModel from "./writeInUserModels";
-import writeInTokenModel from "./writeInTokenModels";
-import writeInAPIError from "./writeInAPIError";
-import writeInAsyncHandler from "./writeInAsyncHandler";
-import writeInCloudinary from "./writeInCloudinaryUtil";
-import writeInAPIResponse from "./writeInAPIResponse";
-import writeInMulterMiddleware from "./writeInMulterMiddleware";
-import writeInAuthMiddleware from "./writeInAuthMiddleware";
-import writeInIndexDB from "./writeInIndexDB";
+import writeInGitIgnore from "./writeInGitIgnore.js";
+import writeInPrettierIgnore from "./writeInPrettierIgnore.js";
+import writeInPrettierRC from "./writeInPrettierRC.js";
+import writeInPackageLock from "./writeInPackageLock.js";
+import writeInPackage from "./writeInPackege.js";
+import writeInENV from "./writeInENV.js";
+import writeInIndex from "./writeInIndex.js";
+import writeInAPPFile from "./writeInAppFile.js";
+import writeInServer from "./writeInServer.js";
+import writeInSocket from "./writeInSocket.js";
+import writeInConstants from "./writeInConstants.js";
+import writeInUserController from "./writeInUserController.js";
+import writeInUserRoutes from "./writeInUserRoutes.js";
+import writeInUserModel from "./writeInUserModels.js";
+import writeInTokenModel from "./writeInTokenModels.js";
+import writeInAPIError from "./writeInAPIError.js";
+import writeInAsyncHandler from "./writeInAsyncHandler.js";
+import writeInCloudinary from "./writeInCloudinaryUtil.js";
+import writeInAPIResponse from "./writeInAPIResponse.js";
+import writeInMulterMiddleware from "./writeInMulterMiddleware.js";
+import writeInAuthMiddleware from "./writeInAuthMiddleware.js";
+import writeInIndexDB from "./writeInIndexDB.js";
 
 
 const runCommand =  command => {
